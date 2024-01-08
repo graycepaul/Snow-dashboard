@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <!-- left side -->
+      <aside class="sidebar-left">
+        <div class="nav-logo">
+          <img class="logo" src="images/Avatar.png" alt="logo" />
+          <p class="logo-text">
+            ByeWind<i
+              class="fa-solid fa-angle-down fa-sm"
+              style="color: #bebfc1"
+            ></i>
+          </p>
+        </div>
+        <nav>
+          <!-- drop down menus -->
+          <div class="dropdown-list">
+            <div class="fav">
+              <h2 class="nav-text">Favorites</h2>
+              <h4 class="nav-text">Recently</h4>
+            </div>
+
+            <div class="fav-content">
+              <p class="nav-subtext">
+                <i class="fa-solid fa-circle fa-2xs"></i>Overview
+              </p>
+              <p class="nav-subtext">
+                <i class="fa-solid fa-circle fa-2xs"></i>Projects
+              </p>
+            </div>
+          </div>
+
+          <div class="dashboard">
+            <h2 class="nav-text">Dashboards</h2>
+            <div>
+              <p class="nav-subtext">
+                <i class="fa-solid fa-angle-right fa-sm"></i
+                ><i class="fa-solid fa-chart-pie"></i>Default
+              </p>
+              <p class="nav-subtext">
+                <i class="fa-solid fa-angle-right fa-sm"></i
+                ><i class="fa-solid fa-bag-shopping"></i>eCommerce
+              </p>
+              <p class="nav-subtext">
+                <i class="fa-solid fa-angle-right fa-sm"></i
+                ><i class="fa-regular fa-folder-closed"></i>Projects
+              </p>
+              <p class="nav-subtext">
+                <i class="fa-solid fa-angle-right fa-sm"></i
+                ><i class="fa-solid fa-book"></i>Online Courses
+              </p>
+            </div>
+          </div>
+
+          <div class="dropdown-open pages">
+            <h2 class="nav-text">Pages</h2>
+            <div>
+              <p class="nav-subtext">
+                <i
+                  class="fa-solid fa-angle-down fa-sm"
+                  style="color: #bebfc1"
+                ></i
+                ><i class="fa-solid fa-id-badge"></i>User Profile
+              </p>
+              <div class="hidden">
+                <p class="nav-subtext">Overview</p>
+                <p class="nav-subtext">Projects</p>
+                <p class="nav-subtext">Campaigns</p>
+                <p class="nav-subtext">Documents</p>
+                <p class="nav-subtext">Followers</p>
+              </div>
+            </div>
+          </div>
+          <div class="dropdown-closed">
+            <h2 class="nav-subtext">
+              <i class="fa-solid fa-angle-right fa-sm"></i
+              ><i class="fa-regular fa-address-card"></i>Account
+            </h2>
+            <h2 class="nav-subtext">
+              <i class="fa-solid fa-angle-right fa-sm"></i
+              ><i class="fa-solid fa-users"></i>Corporate
+            </h2>
+            <h2 class="nav-subtext">
+              <i class="fa-solid fa-angle-right fa-sm"></i
+              ><i class="fa-solid fa-book"></i>
+              Blog
+            </h2>
+            <h2 class="nav-subtext">
+              <i class="fa-solid fa-angle-right fa-sm"></i
+              ><i class="fa-regular fa-comments"></i>Social
+            </h2>
+          </div>
+          <!-- drop down menu end -->
+          <div class="snowflake">
+            <p>
+              <i class="fa-regular fa-snowflake" style="color: #aeacac"></i>Snow
+            </p>
+          </div>
+        </nav>
+      </aside>
+
+      <!-- main -->
+      <main>
+        <!-- top section -->
+        <header class="frame-top">
+          <div class="top-left">
+            <img src="images/sidebar.png" alt="side bar" />
+            <img src="images/star.png" alt="star logo" />
+            <h4>Dashboards /</h4>
+            <p>Default</p>
+          </div>
+          <input type="search" name="Search" placeholder="Search" />
+          <div class="header-icons">
+            <img id="icon" src="images/moon-solid.svg" alt="dark mode" />
+            <img src="images/Button1.png" alt="light mode" />
+            <img src="images/Button2.png" alt="recently icon" />
+            <img src="images/Button3.png" alt="notification icon" />
+            <img src="images/Button4.png" alt="blog icon" />
+          </div>
+        </header>
+
+        <!-- middle section -->
+        <section class="main-sect">
+          <div id="stats-title">
+            <h1 id="sub-heading">
+              Today
+              <i
+                class="fa-solid fa-angle-down fa-sm"
+                style="color: #bebfc1"
+              ></i>
+            </h1>
+          </div>
+          <div class="frame-1">
+            <div class="primary-blue block">
+              <h1>Views</h1>
+              <div id="stats">
+                <h2>721k</h2>
+                <p>+11.01%<i class="fa-solid fa-arrow-trend-up"></i></p>
+              </div>
+            </div>
+
+            <div class="primary-purple block">
+              <h1>Visits</h1>
+              <div id="stats">
+                <h2>367k</h2>
+                <p>+9.15%<i class="fa-solid fa-arrow-trend-up"></i></p>
+              </div>
+            </div>
+
+            <div class="primary-blue block">
+              <h1>New Users</h1>
+              <div id="stats">
+                <h2>1,156</h2>
+                <p>-0.56%<i class="fa-solid fa-arrow-trend-down"></i></p>
+              </div>
+            </div>
+
+            <div class="primary-purple block">
+              <h1>Active Users</h1>
+              <div id="stats">
+                <h2>239k</h2>
+                <p>-1.48%<i class="fa-solid fa-arrow-trend-down"></i></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="frame-2">
+            <!-- total users -->
+            <div class="frame2-left">
+              <div class="total-users">
+                <h2 id="sub-heading">Total Users</h2>
+                <p>Total Project</p>
+                <p>Operating Status |</p>
+                <ul>
+                  <li>Current week</li>
+                  <li>previous week</li>
+                </ul>
+                <i class="fa-solid fa-ellipsis"></i>
+              </div>
+              <div class="chart">
+                <!-- graph -->
+                <div class="graph">
+                  <div class="y-axis">
+                    <p>15M</p>
+                    <hr />
+                    <p>10M</p>
+                    <hr />
+                    <p>5M</p>
+                    <hr />
+                    <p>1M</p>
+                    <hr />
+                    <p>0</p>
+                    <hr id="last-child" />
+                  </div>
+                  <div class="x-axis">
+                    <p>Mon</p>
+                    <p>Tue</p>
+                    <p>Wed</p>
+                    <p>Thu</p>
+                    <p>Fri</p>
+                    <p>Sat</p>
+                    <p>Sun</p>
+                  </div>
+                  <div class="graph-curve">
+                    <img
+                      id="curve1"
+                      src="./images/curve.png"
+                      alt="purple curve"
+                    />
+                    <img
+                      id="curve2"
+                      src="./images/curve2.png"
+                      alt="black curve"
+                    />
+                    <div id="chartnote"><p>Fri: 5,256,598</p></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- traffic by website -->
+            <div class="frame2-right">
+              <h2 id="sub-heading">Traffic by Website</h2>
+              <div class="right-text">
+                <p>Google</p>
+                <p>Youtube</p>
+                <p>Instagram</p>
+                <p>Pinterest</p>
+                <p>Facebook</p>
+                <p>Twitter</p>
+                <p>Tumblr</p>
+              </div>
+            </div>
+            <div class="bars">
+              <span id="google"></span>
+              <span id="lower-rating"></span>
+              <span id="instagram"></span>
+              <span id="lower-rating"></span>
+              <span id="facebook"></span>
+              <span id="lower-rating"></span>
+              <span id="tumblr"></span>
+            </div>
+          </div>
+          <!-- traffic by device -->
+          <div class="frame-3">
+            <div class="frame3-left">
+              <h2 id="sub-heading">Traffic by Device</h2>
+              <div class="histogram">
+                <div class="histogram-y-axis">
+                  <p>900k</p>
+                  <hr />
+                  <p>600k</p>
+                  <hr />
+                  <p>300k</p>
+                  <hr />
+                  <p>0</p>
+                  <hr id="last-child" />
+                </div>
+                <div class="histogram-x-axis">
+                  <p>Linux</p>
+                  <p>Mac</p>
+                  <p>IOS</p>
+                  <p>Windows</p>
+                  <p>Android</p>
+                  <p>Other</p>
+                </div>
+                <div class="histogram-item">
+                  <span id="item1"></span>
+                  <span id="item2"></span>
+                  <span id="item3"></span>
+                  <span id="item4"></span>
+                  <span id="item5"></span>
+                  <span id="item6"></span>
+                </div>
+              </div>
+            </div>
+            <!-- traffic by location -->
+            <div class="frame3-right">
+              <h2 id="sub-heading">Traffic by Location</h2>
+              <div class="frame3-content">
+                <img
+                  class="frame3-img3"
+                  src="images/piechart.png"
+                  alt="pie chart"
+                />
+                <div class="chart-description">
+                  <div id="states">
+                    <p>
+                      <i class="fa-solid fa-circle fa-2xs item3"></i>United
+                      States
+                    </p>
+                    <p><i class="fa-solid fa-circle fa-2xs item2"></i>Canada</p>
+                    <p><i class="fa-solid fa-circle fa-2xs item1"></i>Mexico</p>
+                    <p><i class="fa-solid fa-circle fa-2xs item5"></i>Other</p>
+                  </div>
+                  <div id="percentages">
+                    <p>38.6%</p>
+                    <p>22.5%</p>
+                    <p>30.8%</p>
+                    <p>8.1%</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- marketing and SEO -->
+        <div class="frame-bottom">
+          <h2 id="sub-heading">Marketing & SEO</h2>
+          <p>15M</p>
+          <hr />
+        </div>
+      </main>
+
+      <!-- right side -->
+      <aside class="sidebar-right">
+        <div class="content-log">
+          <h3>Notifications</h3>
+          <div>
+            <img src="images/Featured Icon1.png" alt="bug icon" />
+            <div>
+              <h4>You have a bug that needs t...</h4>
+              <p>5m ago</p>
+            </div>
+          </div>
+          <div>
+            <img src="images/Featured Icon2.png" alt="user icon" />
+            <div>
+              <h4>New user registration</h4>
+              <p>1:23 AM</p>
+            </div>
+          </div>
+          <div>
+            <img src="images/Featured Icon1.png" alt="bug icon" />
+            <div>
+              <h4>You have a bug that needs t...</h4>
+              <p>0:32 AM</p>
+            </div>
+          </div>
+          <div>
+            <img src="images/Featured Icon3.png" alt="connection icon" />
+            <div>
+              <h4>Andi Lane subscribed to you</h4>
+              <p>Yesterday 12:39 AM</p>
+            </div>
+          </div>
+        </div>
+        <div class="content-log">
+          <h3>Activities</h3>
+          <div>
+            <img src="images/Avatar1.png" alt="profile picture" />
+            <div>
+              <h4>Edited the details of Project X</h4>
+              <p>5m ago</p>
+            </div>
+          </div>
+          <div>
+            <img src="images/Avatar2.png" alt="profile picture" />
+            <div>
+              <h4>Changed the status of Project X</h4>
+              <p>1:32 AM</p>
+            </div>
+          </div>
+          <div>
+            <img src="images/Avatar3.png" alt="profile picture" />
+            <div>
+              <h4>Submitted a bug</h4>
+              <p>Yesterday 12:39 AM</p>
+            </div>
+          </div>
+          <div>
+            <img src="images/Avatar4.png" alt="profile picture" />
+            <div>
+              <h4>Modified A data in page X</h4>
+              <p>Last Thursday 3:34 AM</p>
+            </div>
+          </div>
+          <div>
+            <img src="images/Avatar5.png" alt="profile picture" />
+            <div>
+              <h4>Deleted a page in Project X</h4>
+              <p>Aug 11</p>
+            </div>
+          </div>
+        </div>
+        <div class="content-log">
+          <h3>Contacts</h3>
+          <div>
+            <img src="images/Avatar6.png" alt="profile picture" />
+            <h4>Natali Craig</h4>
+          </div>
+          <div>
+            <img src="images/Avatar3.png" alt="profile picture" />
+            <h4>Drew Cano</h4>
+          </div>
+          <div>
+            <img src="images/Avatar7.png" alt="profile picture" />
+            <h4>Orlando Diggs</h4>
+          </div>
+          <div>
+            <img src="images/Avatar4.png" alt="profile picture" />
+            <h4>Andi Lane</h4>
+          </div>
+          <div>
+            <img src="images/Avatar8.png" alt="profile picture" />
+            <h4>Kate Morrison</h4>
+          </div>
+          <div>
+            <img src="images/Avatar9.png" alt="profile picture" />
+            <h4>Koray Okumus</h4>
+          </div>
+        </div>
+      </aside>
+    </div>
+    <footer>
+      <div class="footer-item">
+        <p>@2022 Snow</p>
+        <div class="info">
+          <p>About</p>
+          <p>Support</p>
+          <p>Contact Us</p>
+        </div>
+      </div>
+    </footer>
+    <!-- javascript file -->
+    <script src="script.js"></script>
+  </body>
+</html>
