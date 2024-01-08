@@ -46,7 +46,6 @@
     --icons: #FFFFFF33;
 }
 
-
 /* main container */
 .container {
     display: flex;
@@ -97,13 +96,13 @@ nav {
     width: 180px;
     flex-direction: column;
     align-items: flex-start;
-    gap: 28px;
+    gap: 26px;
 }
 .nav-text {
     color: var(--secondary-40pc);
     font-size: 14px;
     font-weight: 400;
-    margin: 0 10px;
+    margin: 7px 20px 10px 0;
 }
 .nav-subtext {
     color: var(--secondary-color);
@@ -146,7 +145,7 @@ nav i {
     margin-top: -30px;
 }
 .snowflake p{
-    margin-top: 260px;
+    margin-top: 220px;
     color: var(--secondary-40pc);
 }
 .fa-snowflake {
@@ -257,12 +256,12 @@ main {
     font-weight: 600;
 }
 .primary-blue {
-    padding: 27px 35px;
+    padding: 27px;
     border-radius: 16px;
     background-color: var(--primary-blue);
 }
 .primary-purple {
-    padding: 27px 35px;
+    padding: 27px;
     border-radius: 16px;
     background-color: var(--primary-purple);
 }
@@ -643,7 +642,6 @@ hr {
 @media screen and (max-width: 768px) {
     body {
         display: flex;
-        margin: 20px auto;
         border-radius: 16px;
         background-color: var(--primary-color); 
     }
@@ -792,7 +790,7 @@ hr {
     }
     .footer-item {
         display: flex;
-        width: 500px;
+        width: 600px;
         position: relative;
         top: 2120px;
         right: 1000px;
